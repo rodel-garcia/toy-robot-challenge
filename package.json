@@ -1,0 +1,24 @@
+{
+  "name": "toy-robot-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "1.0.2",
+    "@types/jest": "27.5.1",
+    "@types/node": "17.0.35",
+    "jest": "28.1.0",
+    "ts-jest": "28.0.3",
+    "ts-node": "10.8.0",
+    "typescript": "4.7.2"
+  }
+}
+
