@@ -51,25 +51,20 @@ REPORT
 
 #### Example A
 
-    ```
     PLACE 0,0,NORTH
     MOVE
     REPORT
     OUTPUT: 0,1,NORTH
-    ```
 
 #### Example B
 
-    ```
     PLACE 0,0,NORTH
     LEFT
     REPORT
     OUTPUT: 0,0,WEST
-    ```
 
 #### Example C
 
-    ```
     PLACE 1,2,EAST
     MOVE
     MOVE
@@ -77,11 +72,10 @@ REPORT
     MOVE
     REPORT
     OUTPUT: 3,3,NORTH
-    ```
 
 ## Setup
 
-1. Install [Nodejs](https://nodejs.org/en/) as necessary. This application is build **Nodejs v14.17.6**
+1. Install [Nodejs](https://nodejs.org/en/) as necessary. This application is build with **Nodejs v14.17.6**
 2. Clone this repo:
 
    `git clone git@github.com:rodel-garcia/toy-robot-challenge.git`
@@ -109,3 +103,8 @@ This will build the app and output with `/dist` directory
 `npm run test`
 
 This will run the test in the console and produce `/coverage` directory to see graphical representation of the test
+
+#### Test Overview
+
+![image](https://user-images.githubusercontent.com/4024589/170835282-3e378e97-7b6c-4357-987f-20ff0e1afe19.png)
+
